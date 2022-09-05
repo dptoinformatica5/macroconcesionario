@@ -1,0 +1,106 @@
+[
+  {
+    "nombre": "Mitsubishi",
+    "img": "mitsubishi.svg"
+  },
+  {
+    "nombre": "Fiat",
+    "img": "fiat.svg"
+  },
+  {
+    "nombre": "Volvo",
+    "img": "volvo.svg"
+  },
+  {
+    "nombre": "Tesla",
+    "img": "tesla.svg"
+  },
+  {
+    "nombre": "Porsche",
+    "img": "porsche.svg"
+  },
+  {
+    "nombre": "Volkswagen",
+    "img": "volkswagen.svg"
+  },
+  {
+    "nombre": "BMW",
+    "img": "bmw.svg"
+  },
+  {
+    "nombre": "Honda",
+    "img": "honda.svg"
+  },
+  {
+    "nombre": "Peugeot",
+    "img": "peugeot.svg"
+  },
+  {
+    "nombre": "Opel",
+    "img": "opel.svg"
+  },
+  {
+    "nombre": "Kia",
+    "img": "kia.svg"
+  },
+  {
+    "nombre": "Nissan",
+    "img": "nisaan.svg"
+  },
+  {
+    "nombre": "Renault",
+    "img": "renault.svg"
+  },
+  {
+    "nombre": "Jaguar",
+    "img": "jaguar.svg"
+  },
+  {
+    "nombre": "Hyundai",
+    "img": "hyundai.svg"
+  },
+  {
+    "nombre": "Mini",
+    "img": "mini.svg"
+  },
+  {
+    "nombre": "Citroën",
+    "img": "citroen.svg"
+  },
+  {
+    "nombre": "Audi",
+    "img": "audi.svg"
+  },
+  {
+    "nombre": "Mazda",
+    "img": "mazda.svg"
+  },
+  {
+    "nombre": "Mercedes",
+    "img": "mercedes.svg"
+  },
+  {
+    "nombre": "Skoda",
+    "img": "skoda.svg"
+  },
+  {
+    "nombre": "Ford",
+    "img": "ford.svg"
+  },
+  {
+    "nombre": "Toyota",
+    "img": "toyota.svg"
+  },
+  {
+    "nombre": "Dacia",
+    "img": "dacia.svg"
+  },
+  {
+    "nombre": "Suzuki",
+    "img": "suzuki.svg"
+  },
+  {
+    "nombre": "MG",
+    "img": "mg.svg"
+  }
+]

@@ -1,0 +1,49 @@
+.noticiaContainer {
+  padding: 2rem 10%;
+}
+
+.vehicleCard {
+  height: 100%;
+  box-shadow: 5px 5px 20px 5px rgba(221, 221, 221, 0.5);
+}
+
+/* imagen */
+.vehicleCard figure img {
+  width: 100%;
+  height: auto;
+}
+
+.noticiaTitle {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.noticiaContent {
+  color: #373c3f !important;
+  margin: 1.5rem 0 !important;
+}
+
+.leermasBtn {
+  color: #373c3f !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.leermasBtn a {
+  color: #373c3f !important;
+}
+
+.leermasBtn svg {
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--primary-color) !important;
+}
+
+.divider {
+  width: 40px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin-bottom: 1rem;
+}

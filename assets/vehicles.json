@@ -1,0 +1,526 @@
+[
+  {
+    "vehicle_name": "Mitsubishi Eclipse Cross PHEV Kaiteki 4WD",
+    "marca": "Mitsubishi",
+    "img": "mitsubishi-eclipse-crossphev-kaiteki-4wd.webp",
+    "autonomia": "54 km en modo eléctrico",
+    "potencia_velocidad": "138 kW (188 Cv)",
+    "precio": 39440,
+    "basePrice": 39440,
+    "id": "maz01"
+  },
+  {
+    "vehicle_name": "Mazda mx30 Makoto",
+    "marca": "Mazda",
+    "img": "mazda-mx-30-suv.webp",
+    "autonomia": "200 km",
+    "potencia_velocidad": "107 kW (147 Cv)",
+    "precio": 35300,
+    "basePrice": 35300,
+    "id": "maz01"
+  },
+  {
+    "vehicle_name": "MG Marvel R Performance Awd",
+    "marca": "MG",
+    "img": "marvel_r_performance_awd1.webp",
+    "autonomia": "370 km",
+    "potencia_velocidad": "212 kW (288 Cv)",
+    "precio": 38135,
+    "basePrice": 38135,
+    "id": "marvl1"
+  },
+  {
+    "vehicle_name": "Volvo XC40 Recharge Plus Twin Motor",
+    "marca": "Volvo",
+    "img": "volvo-xc40.jpg",
+    "autonomia": "424 km",
+    "potencia_velocidad": "300 kW (408 Cv)",
+    "precio": 37500,
+    "basePrice": 37500,
+    "id": "volv1"
+  },
+  {
+    "vehicle_name": "Renault Megane E-Tech Iconic",
+    "marca": "Renault",
+    "img": "renault-megane-e-tech-iconic.jpg",
+    "autonomia": "435 km",
+    "potencia_velocidad": "160 kW (220 Cv)",
+    "precio": 33546,
+    "basePrice": 33546,
+    "id": "YP7f2"
+  },
+  {
+    "vehicle_name": "Audi e-tron Sportback Advanced 55 Quattro",
+    "marca": "Audi",
+    "img": "audi-e-tron-sportback-advanced-55-quattro.jpg",
+    "autonomia": "400 km",
+    "potencia_velocidad": "300 kW (408 Cv)",
+    "precio": 82139,
+    "basePrice": 82139,
+    "id": "JULlS"
+  },
+  {
+    "vehicle_name": "Renault Clio Techno E-tech Híbrido",
+    "marca": "Renault",
+    "img": "renault-clio-e-tech-hybrid.jpg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "103 kW (140 Cv)",
+    "precio": 20557,
+    "basePrice": 20557,
+    "id": "QmyDG"
+  },
+  {
+    "vehicle_name": "Suzuki Vitara 1.5 Hybrid",
+    "marca": "Suzuki",
+    "img": "suzuki-vitara-hybrid.jpg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "85 kW (116 Cv)",
+    "precio": 25303,
+    "basePrice": 25303,
+    "id": "GoiQG"
+  },
+  {
+    "vehicle_name": "Suzuki Across Plus In Hybrid",
+    "marca": "Suzuki",
+    "img": "suzuki-across-plus-in-hybrid.jpg",
+    "autonomia": "75 km (en modo eléctrico)",
+    "potencia_velocidad": "225 kW (306 Cv)",
+    "precio": 41167,
+    "basePrice": 41167,
+    "id": "HUrgc"
+  },
+  {
+    "vehicle_name": "Kia Sorento Emotion",
+    "marca": "Kia",
+    "img": "kia-sorento-emotion.jpg",
+    "autonomia": "57 km (en modo eléctrico)",
+    "potencia_velocidad": "197 kW (265 Cv)",
+    "precio": 37678,
+    "basePrice": 37678,
+    "id": "FdROt"
+  },
+  {
+    "vehicle_name": "Hyundai Tucson Style Híbrido",
+    "marca": "Hyundai",
+    "img": "hyundai-tucson-style-hibrido.jpg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "169 kW (230 Cv)",
+    "precio": 39045,
+    "basePrice": 39045,
+    "id": "0yHka"
+  },
+  {
+    "vehicle_name": "Dacia Spring Expression Electric",
+    "marca": "Dacia",
+    "img": "dacia-spring-expression-electric.webp",
+    "autonomia": "230 km",
+    "potencia_velocidad": "33 kW (45 Cv)",
+    "precio": 16750,
+    "basePrice": 16750,
+    "id": "4yLN0"
+  },
+  {
+    "vehicle_name": "Volkswagen Multivan Life 1.4 E Hybrid",
+    "marca": "Volkswagen",
+    "img": "Volkswagen-Multivan-Life-1.4-E-Hybrid.jpg",
+    "autonomia": "40 km (en modo eléctrico)",
+    "potencia_velocidad": "160 kW (218 Cv)",
+    "precio": 51626,
+    "basePrice": 51626,
+    "id": "0KI5G"
+  },
+  {
+    "vehicle_name": "Toyota Yaris Cross Business Plus",
+    "marca": "Toyota",
+    "img": "toyota-yaris-cross-business-plus.jpeg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "116 Cv",
+    "precio": 19218,
+    "basePrice": 19218,
+    "id": "frmP9"
+  },
+  {
+    "vehicle_name": "Toyota RAV 4 220 H E-CVT 4x4 Advanced",
+    "marca": "Toyota",
+    "img": "toyota-rav-4.jpg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "222 Cv",
+    "precio": 33230,
+    "basePrice": 33230,
+    "id": "4TVjE"
+  },
+  {
+    "vehicle_name": "Toyota 180 H E-CVT 2.0",
+    "marca": "Toyota",
+    "img": "toyota-180-h-e-cvt.jpg",
+    "autonomia": "N/D",
+    "potencia_velocidad": "184 Cv",
+    "precio": 26721,
+    "basePrice": 26721,
+    "id": "ZAqKV"
+  },
+  {
+    "vehicle_name": "Jaguar I-Pace",
+    "marca": "Jaguar",
+    "img": "jaguar-i-pace.jpg",
+    "autonomia": "470 km",
+    "potencia_velocidad": "294 kW (400 Cv)",
+    "precio": 50272,
+    "basePrice": 50272,
+    "id": "7e1aG"
+  },
+  {
+    "vehicle_name": "Tesla Model Y",
+    "marca": "Tesla",
+    "img": "tesla-model-y-2.jpg",
+    "autonomia": "514 km",
+    "potencia_velocidad": "360 kW (480 Cv)",
+    "precio": 55500,
+    "basePrice": 55500,
+    "id": "PTCmV"
+  },
+  {
+    "vehicle_name": "Renault Zoe E-Tech Iconic",
+    "marca": "Renault",
+    "img": "renault-zoe-e-tech-iconic.jpg",
+    "autonomia": "386 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 29600,
+    "basePrice": 29600,
+    "id": "zet5a"
+  },
+  {
+    "vehicle_name": "Fiat E 500 by Bocelli",
+    "marca": "Fiat",
+    "img": "fiat-e-500-la-prima.jpg",
+    "autonomia": "315 km",
+    "potencia_velocidad": "87 kW (119 Cv)",
+    "precio": 29920,
+    "basePrice": 29920,
+    "id": "ANUh1"
+  },
+  {
+    "vehicle_name": "Peugeot GT Pack",
+    "marca": "Peugeot",
+    "img": "peugeot-gt-pack.jpg",
+    "autonomia": "57 km (en modo eléctrico)",
+    "potencia_velocidad": "132 kW (180 Cv)",
+    "precio": 46136,
+    "basePrice": 46136,
+    "id": "vxgob"
+  },
+  {
+    "vehicle_name": "Peugeot e-208 GT",
+    "marca": "Peugeot",
+    "img": "peugeot-e-208-allure-pack.jpg",
+    "autonomia": "335 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 24150,
+    "basePrice": 24150,
+    "id": "foJb2"
+  },
+  {
+    "vehicle_name": "Renault Twingo E-Tech",
+    "marca": "Renault",
+    "img": "renault-twingo-e-tech.jpg",
+    "autonomia": "270 km",
+    "potencia_velocidad": "60 kW (82 Cv)",
+    "precio": 17792,
+    "basePrice": 17792,
+    "id": "7n7Vh"
+  },
+  {
+    "vehicle_name": "Kia EV6 GT-L",
+    "marca": "Kia",
+    "img": "kia-ev6-gt-l.jpg",
+    "autonomia": "528 km",
+    "potencia_velocidad": "239 kW (325 Cv)",
+    "precio": 40671,
+    "basePrice": 40671,
+    "id": "1f0s2"
+  },
+  {
+    "vehicle_name": "Hyundai Kona 2022",
+    "marca": "Hyundai",
+    "img": "hyundai-kona-2.jpg",
+    "autonomia": "400 km",
+    "potencia_velocidad": "150 kW (204 Cv)",
+    "precio": 29552,
+    "basePrice": 29552,
+    "id": "4I1I2"
+  },
+  {
+    "vehicle_name": "Porsche Taycan Basic",
+    "marca": "Porsche",
+    "img": "porsche-taycan-basic.jpeg",
+    "autonomia": "430 km",
+    "potencia_velocidad": "280 kW (381 Cv)",
+    "precio": 88493,
+    "basePrice": 88493,
+    "id": "Smnxn"
+  },
+  {
+    "vehicle_name": "Toyota Prius Plug-in Executive",
+    "marca": "Toyota",
+    "img": "toyota-prius-executive.jpg",
+    "autonomia": "45 km (en modo eléctrico)",
+    "potencia_velocidad": "99 kW (122 Cv)",
+    "precio": 33410,
+    "basePrice": 33410,
+    "id": "fBHBD"
+  },
+  {
+    "vehicle_name": "Renault Arkana Rs-line E-Tech fast track",
+    "marca": "Renault",
+    "img": "renault-arkana-intens-e-tech.jpg",
+    "autonomia": "800 km",
+    "potencia_velocidad": "105 kW (143 Cv)",
+    "precio": 28288,
+    "basePrice": 28288,
+    "id": "wGAY4"
+  },
+  {
+    "vehicle_name": "Ford Mustang Mach-E",
+    "marca": "Ford",
+    "img": "ford-mustang-mach-e.jpeg",
+    "autonomia": "540 km",
+    "potencia_velocidad": "216 kW (294 Cv)",
+    "precio": 40250,
+    "basePrice": 40250,
+    "id": "5pTAf"
+  },
+  {
+    "vehicle_name": "Skoda Enyaq IV",
+    "marca": "Skoda",
+    "img": "skoda-enyaq-iv.jpg",
+    "autonomia": "500 km",
+    "potencia_velocidad": "152 kW (204 Cv)",
+    "precio": 42720,
+    "basePrice": 42720,
+    "id": "oIjhi"
+  },
+  {
+    "vehicle_name": "Mercedes Benz EQA 250",
+    "marca": "Mercedes",
+    "img": "mercedes-eqa-250.jpg",
+    "autonomia": "424 km",
+    "potencia_velocidad": "140 kW (190 Cv)",
+    "precio": 49600,
+    "basePrice": 49600,
+    "id": "vR3GJ"
+  },
+  {
+    "vehicle_name": "Opel Mokka-e GS Line",
+    "marca": "Opel",
+    "img": "opelmokka.jpg",
+    "autonomia": "339 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 29972,
+    "basePrice": 29972,
+    "id": "vR5GJ"
+  },
+  {
+    "vehicle_name": "Tesla Model 3 Estándar Range Plus",
+    "marca": "Tesla",
+    "img": "tesla-model-3-estandar-plus.jpeg",
+    "autonomia": "510 km",
+    "potencia_velocidad": "242 kW (325 Cv)",
+    "precio": 37125,
+    "basePrice": 37125,
+    "id": "RZjG1"
+  },
+  {
+    "vehicle_name": "Tesla Model 3 Estándar Range Plus",
+    "marca": "Tesla",
+    "img": "tesla-model-3-estandar-plus.jpeg",
+    "autonomia": "510 km",
+    "potencia_velocidad": "242 kW (325 Cv)",
+    "precio": 38550,
+    "basePrice": 38550,
+    "id": "RZjG0"
+  },
+  {
+    "vehicle_name": "Tesla Model X",
+    "marca": "Tesla",
+    "img": "tesla-model-x.jpg",
+    "autonomia": "637 km",
+    "potencia_velocidad": "760 kW (1020 Cv)",
+    "precio": 96850,
+    "basePrice": 96850,
+    "plazo_custom": 6,
+    "mostrar_alerta_plazo": true,
+    "id": "YrYI0"
+  },
+  {
+    "vehicle_name": "Tesla Model S Plaid",
+    "marca": "Tesla",
+    "img": "Tesla-Model-S-Plaid.jpg",
+    "autonomia": "637 km",
+    "potencia_velocidad": "760 kW (1020 Cv)",
+    "precio": 97750,
+    "basePrice": 97750,
+    "plazo_custom": 6,
+    "mostrar_alerta_plazo": true,
+    "id": "KmmZh"
+  },
+  {
+    "vehicle_name": "Tesla Model 3 Long Range",
+    "marca": "Tesla",
+    "img": "tesla-model-3-long-range.jpg",
+    "autonomia": "614 km",
+    "potencia_velocidad": "260 kW (351 Cv)",
+    "precio": 48500,
+    "basePrice": 48500,
+    "id": "lZhqm"
+  },
+  {
+    "vehicle_name": "Volkswagen ID.3",
+    "marca": "Volkswagen",
+    "img": "volkswagen-id-3.jpg",
+    "autonomia": "420 km",
+    "potencia_velocidad": "150 kW (204 Cv)",
+    "precio": 30847,
+    "basePrice": 30847,
+    "id": "cngV8"
+  },
+  {
+    "vehicle_name": "BMW I3",
+    "marca": "BMW",
+    "img": "bmw-i3.jpg",
+    "autonomia": "300 km",
+    "potencia_velocidad": "125 kW (170 Cv)",
+    "precio": 29500,
+    "basePrice": 29500,
+    "id": "2Da1i"
+  },
+  {
+    "vehicle_name": "Honda e",
+    "marca": "Honda",
+    "img": "honda-e.jpg",
+    "autonomia": "222 km",
+    "potencia_velocidad": "113 kW (154 Cv)",
+    "precio": 23177,
+    "basePrice": 23177,
+    "id": "TvB2Z"
+  },
+  {
+    "vehicle_name": "Peugeot e-2008",
+    "marca": "Peugeot",
+    "img": "peugeot-e-208.jpg",
+    "autonomia": "320 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 26846,
+    "basePrice": 26846,
+    "id": "oTP9r"
+  },
+  {
+    "vehicle_name": "Opel Corsa-e GS-Line",
+    "marca": "Opel",
+    "img": "opel-corsa-e.jpg",
+    "autonomia": "320 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 20410,
+    "basePrice": 20410,
+    "id": "jQuh1"
+  },
+  {
+    "vehicle_name": "Kia e-Niro",
+    "marca": "Kia",
+    "img": "kia-e-niro.jpg",
+    "autonomia": "455 km",
+    "potencia_velocidad": "150 kW (204 Cv)",
+    "precio": 33409,
+    "basePrice": 33409,
+    "id": "C75X1"
+  },
+  {
+    "vehicle_name": "Nissan Leaf E + Tekna",
+    "marca": "Nissan",
+    "img": "nissanlea2.jpg",
+    "autonomia": "386 km",
+    "potencia_velocidad": "160 kW (218 Cv)",
+    "precio": 25568,
+    "basePrice": 25568,
+    "id": "0f9tP"
+  },
+  {
+    "vehicle_name": "Mini Cooper SE",
+    "marca": "Mini",
+    "img": "mini-cooper-se.jpg",
+    "autonomia": "234 km",
+    "potencia_velocidad": "135 kW (184 Cv)",
+    "precio": 23050,
+    "basePrice": 23050,
+    "id": "Hhl6y"
+  },
+  {
+    "vehicle_name": "BMW Ix3",
+    "marca": "BMW",
+    "img": "bmw-ix3.jpg",
+    "autonomia": "450 km",
+    "potencia_velocidad": "210 kW (286 Cv)",
+    "precio": 50094,
+    "basePrice": 50094,
+    "id": "GVkpQ"
+  },
+  {
+    "vehicle_name": "Audi RS E-Tron GT",
+    "marca": "Audi",
+    "img": "audi-e-tron-gt-rs.jpg",
+    "autonomia": "470 km",
+    "potencia_velocidad": "440 kW (598 Cv)",
+    "precio": 133054,
+    "basePrice": 133054,
+    "id": "KvcYh"
+  },
+  {
+    "vehicle_name": "Citroën E C4 Shine",
+    "marca": "Citroën",
+    "img": "citroen-e-c4.jpg",
+    "autonomia": "350 km",
+    "potencia_velocidad": "100 kW (136 Cv)",
+    "precio": 24168,
+    "basePrice": 24168,
+    "id": "O3Yyu"
+  },
+  {
+    "vehicle_name": "Volkswagen ID4",
+    "marca": "Volkswagen",
+    "img": "volkswagen-id-4.jpg",
+    "autonomia": "500 km",
+    "potencia_velocidad": "150 kW (200 Cv)",
+    "precio": 39600,
+    "basePrice": 39600,
+    "id": "2vQRm"
+  },
+  {
+    "vehicle_name": "Hyundai Ioniq 5 Energy",
+    "marca": "Hyundai",
+    "img": "hyundai-ioniq-5.jpeg",
+    "autonomia": "480 km",
+    "potencia_velocidad": "168 kW (228 Cv)",
+    "precio": 48136,
+    "basePrice": 48136,
+    "id": "B9faw"
+  },
+  {
+    "vehicle_name": "Mercedes Benz EQC 400",
+    "marca": "Mercedes",
+    "img": "mercedes-eqc.jpg",
+    "autonomia": "400 km",
+    "potencia_velocidad": "300 kW (408 Cv)",
+    "precio": 70296,
+    "basePrice": 70296,
+    "id": "MA6Oy"
+  },
+  {
+    "vehicle_name": "Volkswagen ID 5 Pro Performance",
+    "marca": "Volkswagen",
+    "img": "volkswagen-id-5-pro-performance.jpg",
+    "autonomia": "534 km",
+    "potencia_velocidad": "150 kW (204 Cv)",
+    "precio": 42712,
+    "basePrice": 42712,
+    "id": "5idPro"
+  }
+]

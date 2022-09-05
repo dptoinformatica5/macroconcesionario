@@ -1,0 +1,32 @@
+.marcaLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcaCard {
+    height: 30vh;
+    max-height: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marcaCard h4 {
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .marcaCard {
+        height: auto;
+        width: 90%;
+    }
+
+    .marcaNombre {
+       font-size: 1.1rem;
+    }
+}

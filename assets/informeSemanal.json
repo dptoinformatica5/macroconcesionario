@@ -1,0 +1,32 @@
+[
+  {
+    "fecha": "26 agosto, 2022",
+    "vehiculos": [
+      "Kia EV6 GT-L",
+      "Volkswagen ID4",
+      "Renault Twingo E-Tech",
+      "Peugeot e-208 GT",
+      "Citroën E C4 Shine",
+      "Opel Mokka-e GS Line",
+      "Hyundai Ioniq 5 Energy",
+      "Hyundai Kona 2022",
+      "Toyota Prius Plug-in Executive",
+      "Fiat E 500 by Bocelli"
+    ]
+  },
+  {
+    "fecha": "19 agosto, 2022",
+    "vehiculos": [
+      "Hyundai Ioniq 5 Energy",
+      "Peugeot e-208 GT",
+      "Opel Mokka-e GS Line",
+      "Volkswagen ID4",
+      "Kia EV6 GT-L",
+      "Fiat E 500 by Bocelli",
+      "Toyota Prius Plug-in Executive",
+      "Renault Twingo E-Tech",
+      "Citroën E C4 Shine",
+      "Hyundai Kona 2022"
+    ]
+  }
+]

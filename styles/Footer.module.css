@@ -1,0 +1,117 @@
+/* container */
+.myFooter {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("/img/footer-banner.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+
+.footerWrapper {
+  color: white;
+}
+
+.footerWrapper p {
+  font-size: 0.95rem;
+}
+
+.footerWrapper p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerWrapper h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* logo */
+.footerLogo {
+  width: max-content;
+  padding: 0.5rem;
+  opacity: 0.9;
+}
+
+/* vinculos */
+.footerLinks {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 0;
+}
+
+.footerLinks li {
+  margin: 3px 0;
+  width: max-content;
+}
+
+.footerLinks li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerLinks li a:hover {
+  color: #ffffffbd;
+}
+
+/* contact info */
+.footerDetails {
+  border-top: solid 1px rgba(255, 255, 255, 0.5);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 2rem 0;
+}
+
+/* social icons */
+.footerSocial {
+  background-color: #ffffff3a;
+  font-size: 2.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  min-width: 40px;
+}
+
+.footerSocial:hover {
+  color: var(--red);
+}
+
+/* form */
+.btnSubscription {
+  background-color: var(--red) !important;
+  color: #fff;
+  outline: none !important;
+  border: solid 0.5px #fff !important;
+  border-radius: 0 5px 5px 0 !important;
+  margin-left: -10px;
+}
+
+.btnSubscription:hover {
+  background-color: #fff !important;
+  color: var(--red);
+  border: solid 0.5px var(--red) !important;
+}
+
+@media only screen and (min-width: 575px) {
+  .footerLinks {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footerLinks {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footerLinks li {
+    padding: 3px 5px;
+  }
+
+  .footerDetails {
+    padding: 3rem 0;
+  }
+}
