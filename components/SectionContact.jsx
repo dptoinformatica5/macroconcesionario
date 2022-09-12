@@ -5,13 +5,12 @@ export default function SectionContact() {
   return (
     <section className="btn-contact_section" id="contacto">
       <h3 className="text-center">
-        ¿Interesado en comprar un coche eléctrico?
+        ¿Necesitas comprar un vehículo o maquinaria?
       </h3>
       <p className="my-4 text-center">
-        Nuestros agentes estarán encantados de atenderte y asesorarte sobre todo
-        lo relacionado con la compra de tu vehículo eléctrico; modelos
-        disponibles, parámetros técnicos o la instalación de un punto de
-        recarga. ¡Infórmate sin compromiso ahora!
+        Nuestros asesores te conectarán a la mayor brevedad posible para
+        proporcionarte toda la información que necesitas para gestionar la
+        compra con nosotros.
       </p>
 
       <Link href="/contact">

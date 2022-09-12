@@ -82,6 +82,17 @@ export default function Navbar() {
             </Link>
           </div>
 
+          <Dropdown>
+            <Dropdown.Toggle id="navbar-dropdown">Vehículos</Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item href="/marcas">Coches Eléctricos</Dropdown.Item>
+              {/* 
+              <Dropdown.Item href="/marcas">Coches de Combustión</Dropdown.Item>
+              <Dropdown.Item href="/marcas">Maquinaria</Dropdown.Item>
+              */}
+            </Dropdown.Menu>
+          </Dropdown>
+
           <div className="nav-link-wrapper">
             <Link href="/marcas">
               <a
@@ -103,23 +114,18 @@ export default function Navbar() {
                     : ""
                 }`}
               >
-                Informe Semanal
+                Tendencias en Coches
               </a>
             </Link>
           </div>
 
           <Dropdown>
-            <Dropdown.Toggle id="navbar-dropdown">
-              Sobre nosotros
-            </Dropdown.Toggle>
+            <Dropdown.Toggle id="navbar-dropdown">Nosotros</Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item href="/sobre-nosotros">
-                Sobre Nosotros
+              <Dropdown.Item href="/nuestro-metodo">
+                Nuestro Método
               </Dropdown.Item>
-              <Dropdown.Item href="/nuestro-secreto">
-                Nuestro Secreto
-              </Dropdown.Item>
-              <Dropdown.Item href="/contact">Contacto</Dropdown.Item>
+              <Dropdown.Item href="/#contacto">Contacto</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -132,7 +138,7 @@ export default function Navbar() {
                     : ""
                 }`}
               >
-                Requisitos de compra
+                Requisitos
               </a>
             </Link>
           </div>
@@ -236,15 +242,15 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="sidebar-link-wrapper">
-              <Link href="/nuestro-secreto">
+              <Link href="/nuestro-metodo">
                 <a onClick={hideSidebar}>
                   <Icon icon="key" color="white" />
-                  <span className="ms-2">Nuestro secreto</span>
+                  <span className="ms-2">Nuestro Método</span>
                 </a>
               </Link>
             </div>
             <div className="sidebar-link-wrapper">
-              <Link href="#footer">
+              <Link href="#contacto">
                 <a onClick={hideSidebar}>
                   <Icon icon="address-card" color="white" />
                   <span className="ms-2">Contacto</span>

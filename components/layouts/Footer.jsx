@@ -46,19 +46,13 @@ export default function Footer() {
                   <Link href="/marcas">Marcas</Link>
                 </li>
                 <li>
-                  <Link href="/sobre-nosotros">Nosotros</Link>
-                </li>
-                <li>
-                  <Link href="/ultimas-noticias">Noticias</Link>
-                </li>
-                <li>
-                  <Link href="/opiniones">Opiniones</Link>
+                  <Link href="/nuestro-metodo">Nosotros</Link>
                 </li>
                 <li>
                   <Link href="/aviso-legal">Aviso legal</Link>
                 </li>
                 <li>
-                  <Link href="/requisitos-de-compra">Requisitos de compra</Link>
+                  <Link href="/requisitos-de-compra">Requisitos</Link>
                 </li>
               </ul>
             </Col>
@@ -72,11 +66,11 @@ export default function Footer() {
               </p>
             </Col>
             <Col xs={12} sm={6} lg={4} className="mb-4 mb-lg-0">
-              <h4>Telefono</h4>
+              <h4>Teléfono</h4>
               <p>
                 <FontAwesomeIcon icon={faPhoneAlt} />{" "}
-                <Link href="tel:900533961">
-                  <a>900 533 961</a>
+                <Link href="tel:910053606">
+                  <a>910 05 36 06</a>
                 </Link>
               </p>
             </Col>
@@ -149,19 +143,6 @@ export default function Footer() {
                     <FontAwesomeIcon
                       className={styles.footerSocial}
                       icon={faInstagram}
-                    />
-                  </span>
-                </a>
-              </Link>
-              <Link
-                href="https://www.linkedin.com/company/79866315/"
-                title="linkedin Macroconcesionario"
-              >
-                <a target="blank" aria-label="linkedin Macroconcesionario">
-                  <span className="social-icon-wrapper">
-                    <FontAwesomeIcon
-                      className={styles.footerSocial}
-                      icon={faLinkedin}
                     />
                   </span>
                 </a>

@@ -15,6 +15,9 @@ export default function Marcas() {
         <h1 className="title">Marcas</h1>
         <h2 className="subtitle">
           Accede a nuestro amplio catálogo en automoción
+          <br />
+          <br />
+          Selecciona la marca y modelo disponible
         </h2>
       </div>
       <div className="container pt-4">

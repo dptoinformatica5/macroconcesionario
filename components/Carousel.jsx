@@ -6,6 +6,8 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import placeholderImage from "../assets/placeholderImage";
+import { Button } from "./Button";
+import { Dropdown } from "react-bootstrap";
 
 export default function Carousel() {
   const images = [

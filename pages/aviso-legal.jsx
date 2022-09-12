@@ -336,7 +336,7 @@ export default function avisoLegal() {
                 backgroundColor: "#fafafa",
               }}
             >
-              900 533 961
+              910 05 36 06
             </span>
             &nbsp;o bien a través del correo electrónico&nbsp;
             <a href="mailto:comercial@macroconcesionario.com">
@@ -1084,7 +1084,7 @@ export default function avisoLegal() {
 
           <p>CONTACTO:</p>
 
-          <p style={{ paddingLeft: "40px" }}>Tel&eacute;fono: 900 533 961</p>
+          <p style={{ paddingLeft: "40px" }}>Tel&eacute;fono: 910 05 36 06</p>
 
           <p style={{ paddingLeft: "40px" }}>
             Email: info@macroconcesionario.com
@@ -1120,8 +1120,8 @@ export default function avisoLegal() {
                   <a href="mailto:comercial@macroconcesionario.com">
                     info@macroconcesionario.com
                   </a>{" "}
-                  / Plaza de Carlos Trías Bertrán, 4, 28020, Madrid./ 900 533
-                  961
+                  / Plaza de Carlos Trías Bertrán, 4, 28020, Madrid./ 910 05 36
+                  06
                 </td>
               </tr>
 
@@ -1343,7 +1343,7 @@ export default function avisoLegal() {
 
                   <p>
                     Teléfono:{" "}
-                    <span style={{ color: "#626262" }}>900 533 961</span>
+                    <span style={{ color: "#626262" }}>910 05 36 06</span>
                   </p>
                 </td>
               </tr>

@@ -68,6 +68,7 @@ export default function Home({ ultimasNoticias }) {
         {/* vehicles end */}
 
         {/* noticias */}
+        {/* 
         <h1 className="title title-red w-100 text-center">Últimas Noticias</h1>
         <UltimasNoticiasCard
           noticias={ultimasNoticias?.slice(0, 3)}
