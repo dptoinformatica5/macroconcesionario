@@ -135,7 +135,7 @@ export default function Footer() {
                 </a>
               </Link>
               <Link
-                href="https://www.instagram.com/macroconcesionario.com/"
+                href="https://www.instagram.com/macroconcesionario/"
                 title="instagram Macroconcesionario"
               >
                 <a target="blank" aria-label="instagram Macroconcesionario">

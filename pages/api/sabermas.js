@@ -3,9 +3,9 @@ require("dotenv").config();
 const imgPath = "http://cdn.macroconcesionario.com/img/";
 
 const transport = {
-  port: 587,
-  host: "smtp.ionos.es",
-  secure: false,
+  host: "mail.macroconcesionario.com",
+  port: 465,
+  secure: true,
   auth: {
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_KEY,

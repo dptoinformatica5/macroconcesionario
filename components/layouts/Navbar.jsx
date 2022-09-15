@@ -100,7 +100,7 @@ export default function Navbar() {
                   router.pathname === "/marcas" ? "nav-link-active" : ""
                 }`}
               >
-                Marcas
+                Coches Eléctricos
               </a>
             </Link>
           </div>
@@ -126,6 +126,9 @@ export default function Navbar() {
                 Nuestro Método
               </Dropdown.Item>
               <Dropdown.Item href="/#contacto">Contacto</Dropdown.Item>
+              <Dropdown.Item href="/preguntasfrecuentes">
+                Preguntas Frecuentes
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -195,7 +198,7 @@ export default function Navbar() {
               <Link href="/marcas">
                 <a onClick={hideSidebar}>
                   <Icon icon="car" color="white" />
-                  <span className="ms-2">Marcas</span>
+                  <span className="ms-2">Coches Eléctricos</span>
                 </a>
               </Link>
             </div>
@@ -203,7 +206,7 @@ export default function Navbar() {
               <Link href="/informe-semanal">
                 <a onClick={hideSidebar}>
                   <Icon icon="file-alt" color="white" />
-                  <span className="ms-2">Informe semanal</span>
+                  <span className="ms-2">Tendencias en Coches</span>
                 </a>
               </Link>
             </div>
@@ -215,7 +218,7 @@ export default function Navbar() {
                   <span className="ms-2">Opiniones</span>
                 </a>
               </Link>
-            </div> */}
+            </div> 
 
             <div className="sidebar-link-wrapper">
               <Link href="/sobre-nosotros">
@@ -225,14 +228,16 @@ export default function Navbar() {
                 </a>
               </Link>
             </div>
+            */}
             <div className="sidebar-link-wrapper">
               <Link href="/requisitos-de-compra">
                 <a onClick={hideSidebar}>
                   <Icon icon="clipboard-check" color="white" />
-                  <span className="ms-2">Requisitos de compra</span>
+                  <span className="ms-2">Requisitos</span>
                 </a>
               </Link>
             </div>
+            {/* 
             <div className="sidebar-link-wrapper">
               <Link href="/ultimas-noticias">
                 <a onClick={hideSidebar}>
@@ -241,6 +246,7 @@ export default function Navbar() {
                 </a>
               </Link>
             </div>
+            */}
             <div className="sidebar-link-wrapper">
               <Link href="/nuestro-metodo">
                 <a onClick={hideSidebar}>

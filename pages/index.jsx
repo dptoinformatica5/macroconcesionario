@@ -43,14 +43,11 @@ export default function Home({ ultimasNoticias }) {
       </Head>
 
       {/* Header dejabjo de carusel */}
-      {/* <div className="header">
-        <h1 className="title">Mejores Coches Eléctricos de 2022</h1>
-        <h2 className="subtitle">
-          La movilidad eléctrica está en auge. Y estar al corriente de las
-          novedades y vehículos en el mercado es un realidad. ¡Conoce los
-          mejores coches eléctricos de 2022!
-        </h2>
-      </div> */}
+      <div style={{ marginTop: 70 }}>
+        <h1 className="title title-red w-100 text-center">
+          La mejor alternativa en automoción
+        </h1>
+      </div>
 
       <div className="container pt-4">
         {/* vehicles */}
@@ -83,6 +80,12 @@ export default function Home({ ultimasNoticias }) {
         <h1 className="title title-red w-100 text-center">Buscar por marcas</h1>
         <MarcaCard page="inicio" />
         {/* marcas end */}
+        <div style={{ marginTop: 70 }}>
+          <h2 className="title title-red w-100 text-center">
+            Compra tu coche eléctrico o convencional al mejor precio con
+            nosotros. También tenemos todo en vehículos pesados y maquinaria.
+          </h2>
+        </div>
 
         {/* sabermas form */}
         <Sabermas />

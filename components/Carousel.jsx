@@ -12,7 +12,7 @@ import { Dropdown } from "react-bootstrap";
 export default function Carousel() {
   const images = [
     "Banner-Principal.webp",
-    "Banner-Principal-camion.webp",
+    "comprar-maquinaria.webp",
     "Banner-Principal-tractor-2.webp",
   ];
   const [current, setCurrent] = useState(0);
@@ -34,14 +34,6 @@ export default function Carousel() {
   return (
     <section className="section_banner">
       <div className="position-relative w-100 h-100">
-        <div className="banner_content">
-          <h2>La mejor alternativa en automoción</h2>
-          <h1 className="banner_text d-sm-none d-md-block">
-            Compra tu coche eléctrico o convencional al mejor precio con
-            nosotros. También tenemos todo en vehículos pesados y maquinaria.
-          </h1>
-        </div>
-
         {images.map((image, key) => (
           <Image
             key={key}

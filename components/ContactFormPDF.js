@@ -17,9 +17,11 @@ const ContactFormPDF = () => {
     origin: "",
     description: "",
     pdf: "",
+    privacidad: "",
   };
   const [state, setState] = useState(initialState);
   const [isLoading, setisLoading] = useState(false);
+  const [displayPrivacidad, setDisplayPrivacidad] = useState(false);
   const [displayDniInput, setDisplayDniInput] = useState(false);
   const [emailSent, setEmailSent] = useState(null);
   const router = useRouter();
@@ -88,8 +90,13 @@ const ContactFormPDF = () => {
     e.preventDefault();
     const token = await handleReCaptchaVerify();
 
+    if (!displayPrivacidad) {
+      alert("Debe aceptar la política de privacidad");
+      return;
+    }
+
     setisLoading(true);
-    if (token) {
+    if (token && displayPrivacidad) {
       try {
         const { data } = await axios.post("/api/contactpdf", {
           ...state,
@@ -123,6 +130,9 @@ const ContactFormPDF = () => {
     console.log(pdfFile);
   }, [pdfFile]);
   useEffect(() => handleReCaptchaVerify, [handleReCaptchaVerify]);
+  const handleDisplayPrivacidad = (e) => {
+    setDisplayPrivacidad(!displayPrivacidad);
+  };
 
   return (
     <div className="d-flex justify-content-center">
@@ -133,7 +143,7 @@ const ContactFormPDF = () => {
           <div className="w-100">
             <div className=" form-group d-flex flex-wrap flex-md-nowrap gap-1">
               <label htmlFor="name ">
-                *Nombre
+                *Nombre Completo
                 <input
                   id="name"
                   type="text"
@@ -177,7 +187,7 @@ const ContactFormPDF = () => {
             </div>
             <div className="form-group">
               <label htmlFor="car">
-                Detalles del coche
+                Detalles del vehículo
                 <input
                   id="car"
                   type="text"
@@ -192,7 +202,7 @@ const ContactFormPDF = () => {
             </div>
           </div>
           <div className="mt-2" onChange={handleInputs}>
-            <h6>¿De donde vienes?</h6>
+            <h6>¿Cómo nos conociste?</h6>
             <label htmlFor="coches.net">
               <input
                 type="radio"
@@ -211,6 +221,15 @@ const ContactFormPDF = () => {
               />{" "}
               autocasion.com
             </label>
+            <label htmlFor="autocasion.com" className="ms-4">
+              <input
+                type="radio"
+                name="origin"
+                id="Wallapop"
+                value="Wallapop"
+              />{" "}
+              Wallapop
+            </label>
           </div>
           <div className="description">
             <textarea
@@ -223,15 +242,22 @@ const ContactFormPDF = () => {
               onChange={handleInputs}
             ></textarea>
           </div>
-          <label htmlFor="dniAttached" className="my-2">
-            <input
-              type="checkbox"
-              name="checkdni"
-              id="dniAttached"
-              onChange={handleDisplayDniForm}
-            />{" "}
-            Adjuntar DNI
-          </label>
+
+          {/* ADJUNTAR DOCUMENTO */}
+          <div>
+            <label htmlFor="dniAttached" className="my-2">
+              <input
+                type="checkbox"
+                name="checkdni"
+                id="dniAttached"
+                onChange={handleDisplayDniForm}
+              />{" "}
+              Adjuntar documento acreditativo de identidad.
+            </label>
+            <p style={{ fontSize: 12, marginTop: -15 }}>
+              *Formatos admitidos: PDF, JPG, PNG. Máx. 4MB
+            </p>
+          </div>
           {displayDniInput ? (
             <div className="input-group">
               <input
@@ -263,6 +289,20 @@ const ContactFormPDF = () => {
                 </div>
               )}
             </button>
+          </div>
+          {/* POLITICA DE PRIVACIDAD */}
+          <div>
+            <p style={{ fontSize: 12, marginTop: 10, textAlign: "center" }}>
+              <input
+                type="checkbox"
+                name="privacidad"
+                id="privacidad"
+                onChange={handleDisplayPrivacidad}
+              />{" "}
+              Acepto la <a href={`/aviso-legal`}>política de privacidad</a> y
+              consiento la utilización de mis datos personales para fines
+              comerciales.
+            </p>
           </div>
         </form>
       </main>

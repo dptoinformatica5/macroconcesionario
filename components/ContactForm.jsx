@@ -142,7 +142,7 @@ export default function ContactForm({ handleSubmit, isLoading }) {
           name="name"
           required
         />
-        <label htmlFor="name">Nombre</label>
+        <label htmlFor="name">Nombre Completo</label>
       </div>
       <div className="form-floating mb-3">
         <input

@@ -17,7 +17,7 @@ export default function Formulario_completo() {
         />
       </Head>
 
-      <div className="container pt-4">
+      <div className="container">
         <section className="section_contact-form">
           <h2 className="text-center">Fomulario de Contacto</h2>
           <p className="my-4 text-justify">
@@ -27,7 +27,8 @@ export default function Formulario_completo() {
             recarga. Infórmate sin compromiso.
           </p>
           <h6 className="text-center">
-            **Para agilizar el proceso puedes enviarnos tu DNI en formato PDF.
+            **Para agilizar el proceso, por favor adjunta tu Documento de
+            Identidad.
           </h6>
           <GoogleReCaptchaProvider
             reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_PUBLIC_KEY}
