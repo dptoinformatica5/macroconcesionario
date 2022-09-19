@@ -11,14 +11,15 @@ import { Dropdown } from "react-bootstrap";
 
 export default function Carousel() {
   const images = [
-    "Banner-Principal.webp",
+    "comprar-coches-de-lujo.webp",
+    "comprar-vehiculos-de-alta-gama.webp",
     "comprar-maquinaria.webp",
     "Banner-Principal-tractor-2.webp",
   ];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => next(), 6000);
+    const interval = setInterval(() => next(), 1500);
     return () => clearInterval(interval);
   }, [current]);
 

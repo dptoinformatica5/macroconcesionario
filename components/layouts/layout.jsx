@@ -33,11 +33,11 @@ export default function Layout({ children }) {
         </title>
         <meta
           name="description"
-          content="Macroconcesionario. Líder en ventas de coches eléctricos e híbridos enchufables en España y Europa. Coches eléctricos, coches híbridos, coches híbridos enchufables, Macroconcesionario españa, Macroconcesionario europa"
+          content="Macroconcesionario. Plataforma líder en venta de coches, maquinaria vehículos eléctricos y pesados en España y Europa. Compra desde tu coche eléctrico hasta un autobús, todo en automoción"
         />
         <meta
           name="keywords"
-          content="Macroconcesionario, coches eléctricos, coches híbridos, coches híbridos enchufables, coches online, vehículos eléctricos, vehiculos híbridos, vehiculos eléctricos online"
+          content="vehículos de ocasión, coches de exposición, coches eléctricos online, vehículos pesados, coches eléctricos, coches híbridos, coches de combustión, buses de segunda mano, coches de segunda mano, coches híbridos enchufables, coches online, vehículos eléctricos, vehiculos híbridos, vehiculos eléctricos online"
         />
         <meta name="author" content="Macroconcesionario" />
         <meta name="robots" content="index,follow" />

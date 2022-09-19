@@ -86,10 +86,10 @@ export default function Navbar() {
             <Dropdown.Toggle id="navbar-dropdown">Vehículos</Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item href="/marcas">Coches Eléctricos</Dropdown.Item>
-              {/* 
-              <Dropdown.Item href="/marcas">Coches de Combustión</Dropdown.Item>
-              <Dropdown.Item href="/marcas">Maquinaria</Dropdown.Item>
-              */}
+              <Dropdown.Item href="/cochesdecombustion">
+                Coches de Combustión
+              </Dropdown.Item>
+              {/*<Dropdown.Item href="/marcas">Maquinaria</Dropdown.Item>*/}
             </Dropdown.Menu>
           </Dropdown>
 
@@ -199,6 +199,14 @@ export default function Navbar() {
                 <a onClick={hideSidebar}>
                   <Icon icon="car" color="white" />
                   <span className="ms-2">Coches Eléctricos</span>
+                </a>
+              </Link>
+            </div>
+            <div className="sidebar-link-wrapper">
+              <Link href="/cochesdecombustion">
+                <a onClick={hideSidebar}>
+                  <Icon icon="car" color="white" />
+                  <span className="ms-2">Coches de Combustión</span>
                 </a>
               </Link>
             </div>

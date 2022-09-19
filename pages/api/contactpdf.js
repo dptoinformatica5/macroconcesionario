@@ -36,7 +36,6 @@ const sendConfirmationEmail = (body, res) => {
         from: "info@macroconcesionario.com",
         to: body.email,
         repplyTo: "info@macroconcesionario.com",
-
         subject: "¡Correo de confirmación! - Macroconcesionario",
         attachments: [
           {

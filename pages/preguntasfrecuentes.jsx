@@ -9,8 +9,7 @@ export default function PreguntasFrecuentes() {
           <h1 className="title title-red">Preguntas Frecuentes</h1>
           <div className="content text-left" style={{ paddingTop: 30 }}>
             <Acordion />
-            <div></div>
-            <div style={{ backgroundColor: "#fafafa", padding: 30 }}>
+            <div>
               <Garantias />
             </div>
           </div>

@@ -5,7 +5,14 @@ import Col from "react-bootstrap/Col";
 function Garantias() {
   return (
     <Container>
-      <div style={{ backgroundColor: "#fafafa", paddingTop: 30 }}>
+      <div
+        style={{
+          marginTop: 50,
+          backgroundColor: "#fafafa",
+          paddingTop: 30,
+          textAlign: "center",
+        }}
+      >
         <h2 className="title title-red">La mejor alternativa en automoción</h2>
         <p>
           Compra tu coche eléctrico o convencional al mejor precio con nosotros.
@@ -13,7 +20,14 @@ function Garantias() {
         </p>
       </div>
       <Row md={4}>
-        <div style={{ backgroundColor: "#fafafa", padding: 30, width: 400 }}>
+        <div
+          style={{
+            backgroundColor: "#fafafa",
+            padding: 30,
+            width: 400,
+            textAlign: "center",
+          }}
+        >
           <Col
             xs={6}
             style={{
@@ -22,7 +36,7 @@ function Garantias() {
               width: 400,
               height: 300,
               padding: 90,
-              borderRadius: 5,
+              borderRadius: 10,
               borderColor: "blue",
             }}
           >
@@ -44,6 +58,7 @@ function Garantias() {
               padding: 90,
               borderRadius: 5,
               borderColor: "blue",
+              textAlign: "center",
             }}
           >
             <h5>Compra Segura</h5>
@@ -63,6 +78,7 @@ function Garantias() {
               height: 300,
               padding: 90,
               borderRadius: 5,
+              textAlign: "center",
             }}
           >
             <h5>Devolución</h5>

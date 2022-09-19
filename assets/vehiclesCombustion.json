@@ -1,0 +1,92 @@
+[
+  {
+    "vehicle_name": "Volkswagen T-Roc",
+    "marca": "Volkswagen",
+    "img": "VOLKSWAGEN T-ROC.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "110 kW (150 Cv)",
+    "precio": 25600,
+    "basePrice": 25600,
+    "id": "vwtroc"
+  },
+  {
+    "vehicle_name": "Opel Mokka Karbon Blick",
+    "marca": "Opel",
+    "img": "OPEL Mokka SUV.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "(130 Cv)",
+    "precio": 27491,
+    "basePrice": 27491,
+    "id": "opmok"
+  },
+  {
+    "vehicle_name": "Seat Arona",
+    "marca": "Seat",
+    "img": "SEAT Arona 1.0 TSI.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "81 kW (110 Cv)",
+    "precio": 108408,
+    "basePrice": 108408,
+    "id": "seatar"
+  },
+  {
+    "vehicle_name": "Opel Corsa Berlina",
+    "marca": "Opel",
+    "img": "Opel Corsa Berlina.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "(100 Cv)",
+    "precio": 16800,
+    "basePrice": 16800,
+    "id": "YP7f2"
+  },
+  {
+    "vehicle_name": "Mercedes C220",
+    "marca": "Mercedes",
+    "img": "Mercedes C 220 d 4MATIC.jpg",
+    "autonomia": "Diesel",
+    "potencia_velocidad": "",
+    "precio": 41620,
+    "basePrice": 41620,
+    "id": "JULlS"
+  },
+  {
+    "vehicle_name": "BMW 116 Serie 1",
+    "marca": "BMW",
+    "img": "BMW 116d.jpg",
+    "autonomia": "Diesel",
+    "potencia_velocidad": "85 kW (116 Cv)",
+    "precio": 28428,
+    "basePrice": 28428,
+    "id": "QmyDG"
+  },
+  {
+    "vehicle_name": "Bentley Continental GFC Mulliner",
+    "marca": "Bentley",
+    "img": "BENTLEY CONTINENTAL GTC MULLINER W12.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "",
+    "precio": 285600,
+    "basePrice": 285600,
+    "id": "GoiQG"
+  },
+  {
+    "vehicle_name": "Audi RSQ8",
+    "marca": "Audi",
+    "img": "H4sIAAAAAAAAAI2W-T_UaxvH7xkkbjEi60lGxZxRtjR4iixJ6CHScMienczYK1sZGWsymIhwIsaWSA4xtmwzljYnIck4zmEQEWV9vj2v5w947h-u1_d7fa_X6_u67vv6vD935QLgCw0CPA4Ohubb0ge8vMa00ABEkAAAKCSPdjCsXJH8vmevzeT_0gK9gDfcw42EQirOoQV9Aly9P.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "(600 Cv)",
+    "precio": 130792,
+    "basePrice": 130792,
+    "id": "HUrgc"
+  },
+  {
+    "vehicle_name": "Audi A1 Sportbook",
+    "marca": "Audi",
+    "img": "H4sIAAAAAAAAAI1W-TuVXRfex8zOnDlSpgyZZxE5ZhlKxshwkAxxKHMojqE4cch0qteQmRThRJmKzIUTQqbeMmeIDOF7-q7vD_j2D-t69tr72td61n2ve62KFUB9CwsoHRwumBzwcHh6jqtQABDiDwBAIX4KhwsVm1w7NHRW0_9zw3BAFezu6o9CbuhTMHj5uni6y_x1MKMYXOTOu.jpg",
+    "autonomia": "Gasolina",
+    "potencia_velocidad": "",
+    "precio": 22844,
+    "basePrice": 22844,
+    "id": "FdROt"
+  }
+]

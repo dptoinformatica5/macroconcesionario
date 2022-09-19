@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Audi",
+    "img": "audi.svg"
+  },
+  {
+    "nombre": "Bentley",
+    "img": "Bentley.svg"
+  },
+  {
+    "nombre": "BMW",
+    "img": "bmw.svg"
+  },
+  {
+    "nombre": "Mercedes",
+    "img": "mercedes.svg"
+  },
+  {
+    "nombre": "Opel",
+    "img": "opel.svg"
+  },
+  {
+    "nombre": "Volkswagen",
+    "img": "volkswagen.svg"
+  },
+  {
+    "nombre": "Seat",
+    "img": "Seat.svg"
+  }
+]

@@ -2,19 +2,19 @@
 import Head from "next/head";
 import SorteoAlert from "../components/SorteoAlert";
 import SectionContact from "../components/SectionContact";
-import MarcaCard from "../components/MarcaCard";
+import CombustionCard from "../components/CombustionCard";
 
-export default function Marcas() {
+export default function CochesCombustion() {
   return (
     <>
       <Head>
         <title>
-          Macroconcesionario| Coches Eléctricos | macroconcesionario.com
+          Macroconcesionario| Coches de Combustión | macroconcesionario.com
         </title>
       </Head>
 
       <div className="header px-0 px-lg-2">
-        <h1 className="title">Coches Eléctricos</h1>
+        <h1 className="title">Coches de Combustión</h1>
         <h2 className="subtitle">
           Accede a nuestro amplio catálogo en automoción
           <br />
@@ -28,7 +28,7 @@ export default function Marcas() {
           className="section__top-vehicles my-4"
         >
           {/* <SorteoAlert /> */}
-          <MarcaCard />
+          <CombustionCard />
         </section>
 
         <SectionContact />

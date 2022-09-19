@@ -37,9 +37,13 @@ export default function Home({ ultimasNoticias }) {
           macroconcesionario.com
         </title>
         <meta
+          name="keywords"
+          content="vehículos de ocasión, coches de exposición, coches eléctricos online, vehículos pesados, coches eléctricos, coches híbridos, coches de combustión, buses de segunda mano, coches de segunda mano, coches híbridos enchufables, coches online, vehículos eléctricos, vehiculos híbridos, vehiculos eléctricos online"
+        />
+        <meta
           name="description"
-          content="Macroconcesionario. Líder en ventas de coches eléctricos e híbridos enchufables en España y Europa. Coches eléctricos, coches híbridos, coches híbridos enchufables, Macroconcesionario españa, Macroconcesionario europa"
-        ></meta>
+          content="Macroconcesionario. Plataforma líder en venta de coches, maquinaria vehículos eléctricos y pesados en España y Europa. Compra desde tu coche eléctrico hasta un autobús, todo en automoción"
+        />
       </Head>
 
       {/* Header dejabjo de carusel */}
