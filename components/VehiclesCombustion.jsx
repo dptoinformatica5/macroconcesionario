@@ -24,7 +24,7 @@ export default function VehiclesCombustion({
     }
   }, [state]);
 
-  const handleClick = (v) => router.push("/calcular?vid=" + v.id);
+  const handleClick = (v) => router.push("/calcularCombustion?vid=" + v.id);
 
   const handleChange = (e) => {
     setState((prevState) => {
