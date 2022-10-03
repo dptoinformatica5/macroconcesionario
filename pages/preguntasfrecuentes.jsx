@@ -7,7 +7,7 @@ export default function PreguntasFrecuentes() {
       <div className="container">
         <section className="section_team">
           <h1 className="title title-red">Preguntas Frecuentes</h1>
-          <div className="content text-left" style={{ paddingTop: 30 }}>
+          <div className="content text-justify" style={{ paddingTop: 30 }}>
             <Acordion />
             <div>
               <Garantias />

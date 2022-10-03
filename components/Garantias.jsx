@@ -19,76 +19,77 @@ function Garantias() {
           También tenemos todo en vehículos pesados y maquinaria.
         </p>
       </div>
-      <Row md={4}>
-        <div
-          style={{
-            backgroundColor: "#fafafa",
-            padding: 30,
-            width: 400,
-            textAlign: "center",
-          }}
-        >
-          <Col
-            xs={6}
+      <div style={{ backgroundColor: "#fafafa", padding: 20 }}>
+        <Row md={4}>
+          <div
             style={{
-              backgroundColor: "white",
-              display: "block",
+              backgroundColor: "#fafafa",
+              padding: 30,
               width: 400,
-              height: 300,
-              padding: 90,
-              borderRadius: 10,
-              borderColor: "blue",
-            }}
-          >
-            <h5>Garantía de la Casa Oficial</h5>
-            <p style={{ height: 2, paddingTop: 30 }}>
-              Siempre obtendrá la garantía de la casa oficial después de la
-              compra.
-            </p>
-          </Col>
-        </div>
-        <div style={{ backgroundColor: "#fafafa", padding: 30, width: 400 }}>
-          <Col
-            xs={6}
-            style={{
-              backgroundColor: "white",
-              display: "block",
-              width: 400,
-              height: 300,
-              padding: 90,
-              borderRadius: 5,
-              borderColor: "blue",
               textAlign: "center",
             }}
           >
-            <h5>Compra Segura</h5>
-            <p style={{ height: 2, paddingTop: 30 }}>
-              Sea cual sea el origen del vehículo, siempre realiza el pago con
-              nosotros directamente.
-            </p>
-          </Col>
-        </div>
-        <div style={{ backgroundColor: "#fafafa", padding: 30, width: 400 }}>
-          <Col
-            xs={6}
-            style={{
-              backgroundColor: "white",
-              display: "block",
-              width: 400,
-              height: 300,
-              padding: 90,
-              borderRadius: 5,
-              textAlign: "center",
-            }}
-          >
-            <h5>Devolución</h5>
-            <p style={{ height: 2, paddingTop: 30 }}>
-              Puede devolver el vehículo hasta los 14 días posteriores a su
-              recepción.
-            </p>
-          </Col>
-        </div>
-      </Row>
+            <Col
+              xs={6}
+              style={{
+                backgroundColor: "white",
+                display: "block",
+                width: 400,
+                height: 300,
+                padding: 90,
+                borderRadius: 5,
+                borderBlockColor: "blue",
+              }}
+            >
+              <h5>Garantía de la Casa Oficial</h5>
+              <p style={{ height: 2, paddingTop: 30 }}>
+                Siempre obtendrá la garantía de la casa oficial después de la
+                compra.
+              </p>
+            </Col>
+          </div>
+          <div style={{ backgroundColor: "#fafafa", padding: 30, width: 400 }}>
+            <Col
+              xs={6}
+              style={{
+                backgroundColor: "white",
+                display: "block",
+                width: 400,
+                height: 300,
+                padding: 90,
+                borderRadius: 5,
+                textAlign: "center",
+              }}
+            >
+              <h5>Compra Segura</h5>
+              <p style={{ height: 2, paddingTop: 30 }}>
+                Sea cual sea el origen del vehículo, siempre realiza el pago con
+                nosotros directamente.
+              </p>
+            </Col>
+          </div>
+          <div style={{ backgroundColor: "#fafafa", padding: 30, width: 400 }}>
+            <Col
+              xs={6}
+              style={{
+                backgroundColor: "white",
+                display: "block",
+                width: 400,
+                height: 300,
+                padding: 90,
+                borderRadius: 5,
+                textAlign: "center",
+              }}
+            >
+              <h5>Devolución</h5>
+              <p style={{ height: 2, paddingTop: 30 }}>
+                Puede devolver el vehículo hasta los 14 días posteriores a su
+                recepción.
+              </p>
+            </Col>
+          </div>
+        </Row>
+      </div>
     </Container>
   );
 }
