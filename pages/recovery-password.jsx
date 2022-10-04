@@ -44,8 +44,8 @@ export default function RecoveryPassword() {
         >
           <h1 className="title-red">Recuperar contraseña</h1>
           <p className="my-4">
-            Introduce el e-mail asociado a tu cuenta de CochesElectricosOnline y
-            te enviaremos un enlace para restaurar tu contraseña.
+            Introduce el e-mail asociado a tu cuenta de Macroconcesionario y te
+            enviaremos un enlace para restaurar tu contraseña.
           </p>
 
           <form onSubmit={handleSubmit}>

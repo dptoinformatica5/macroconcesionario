@@ -88,6 +88,11 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-FPRZMVQWJ8"
+      ></script>
+
       <SSRProvider>
         <Provider store={store}>
           <PersistGate
